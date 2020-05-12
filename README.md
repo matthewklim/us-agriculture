@@ -19,7 +19,7 @@ A dashboard created for Tableau Public can be found linked in the checklist belo
 
 ## Approach and Design Workflow
 
-I tried to keep in mind the overall end goal for every step of the workflow. Thinking about the final dashboard output, the software tool needed to handle plotting county level data.
+Keep in mind the overall end goal for every step of the process. Thinking about the final dashboard output, the software tool needed to handle plotting county level data. Staying within a defined scope and considering what questions an end user would want to answer. Enabling reusable work as much as possible.
 
 ## 1. Data Preparation and Cleansing
 
