@@ -12,7 +12,7 @@ A dashboard created for Tableau Public can be found linked in the checklist belo
 
 - [x] [Data preparation (saved to this GitHub repository)](sql/clean_script/data_preparation_clean.sql)
 - [x] [Cleaned dataset](output-data/ag_exp_clean_county.txt.gz)
-- [x] [Interactive dashboard to explore the cleaned dataset (Tableau)]((https://public.tableau.com/profile/matthew.lim3502#!/vizhome/USAgriculture_15891807504100/UnitedStatesAgriculture))
+- [x] [Interactive dashboard to explore the cleaned dataset (Tableau)](https://public.tableau.com/profile/matthew.lim3502#!/vizhome/USAgriculture_15891807504100/UnitedStatesAgriculture))
 - [x] 4. Brief explanation of how I tackled this task
   - [x] [slides](us_agriculture.pptx)
   - [x] writeup / walk-through
