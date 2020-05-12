@@ -13,8 +13,8 @@ A dashboard created for Tableau Public can be found linked in the checklist belo
 - [x] [Data preparation (saved to this GitHub repository)](sql/clean_script/data_preparation_clean.sql)
 - [x] [Cleaned dataset](output-data/ag_exp_clean_county.txt.gz)
 - [x] [Interactive dashboard to explore the cleaned dataset (Tableau)]((https://public.tableau.com/profile/matthew.lim3502#!/vizhome/USAgriculture_15891807504100/UnitedStatesAgriculture))
-- [ ] 4. Brief explanation of how I tackled this task
-  - [ ] slides
+- [x] 4. Brief explanation of how I tackled this task
+  - [x] [slides](us_agriculture.pptx)
   - [x] writeup / walk-through
 
 ## Approach and Design Workflow
@@ -66,7 +66,11 @@ The final dataset needed a format easily interpretable by a software as well as 
 #### Transformations
 
 Add detail where necessary while also remaining frugal about information to include. Preserve raw data where possible and limit modifications unless necessary (save column names and raw data)
-  
+
+#### Data Integrity
+
+Aggregations should align across tables even after transformation.
+
 ### Cleaned Dataset
 
 The table includes eight user-friendly columns to identify:
@@ -99,8 +103,6 @@ Some possible options include:
 #### Dashboard - Limited Space
 
 The dashboard should look and behave intuitively for an individual unfamiliar with the information presented. The design should ideally have little clutter and draw the attention of users to important details. While everyone moves at a different pace, the visuals should provide enough information to help a user along and digest new knowledge. Enabling a user to dive into a specific element can come as a bonus after primarily highlighting important trends and facts.
-
-
 
 ## 3. Presentation
 
