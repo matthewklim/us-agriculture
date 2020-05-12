@@ -846,7 +846,7 @@ SELECT
               WHEN commodity_desc = 'CORN' AND statisticcat_desc <> 'AREA PLANTED' 
               THEN util_practice_desc
               WHEN commodity_desc = 'CORN' AND statisticcat_desc = 'AREA PLANTED' 
-              THEN 'AREA HARVESTED (ONLY)'
+              THEN 'AREA PLANTED (ONLY)'
               ELSE class_desc
        END                                                                                 AS commodity_class_desc
 ,      INITCAP(commodity_class_desc)                                                       AS commodity_class_variety
@@ -1011,7 +1011,7 @@ SELECT
               WHEN commodity_desc = 'CORN' AND statisticcat_desc <> 'AREA PLANTED' 
               THEN util_practice_desc
               WHEN commodity_desc = 'CORN' AND statisticcat_desc = 'AREA PLANTED' 
-              THEN 'AREA HARVESTED (ONLY)'
+              THEN 'AREA PLANTED (ONLY)'
               ELSE class_desc
        END                                                                                 AS commodity_class_desc
 ,      INITCAP(commodity_class_desc)                                                       AS commodity_class_variety
@@ -1175,7 +1175,7 @@ SELECT
               WHEN commodity_desc = 'CORN' AND statisticcat_desc <> 'AREA PLANTED' 
               THEN util_practice_desc
               WHEN commodity_desc = 'CORN' AND statisticcat_desc = 'AREA PLANTED' 
-              THEN 'AREA HARVESTED (ONLY)'
+              THEN 'AREA PLANTED (ONLY)'
               ELSE class_desc
        END                                                                                 AS commodity_class_desc
 ,      INITCAP(commodity_class_desc)                                                       AS commodity_class_variety
