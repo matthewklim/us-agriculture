@@ -1,4 +1,4 @@
-# Indigo Data Analyst Case Study
+# US Agriculture Case Study
 
 ## Goal
 
@@ -181,6 +181,6 @@ Heavier lift to setup and possibly intimidating for users unfamiliar to the envi
 
 <details open><summary> </summary>
 
-![dashboard preview](images/tableau_public_dashboard_preview.png)
+[![dashboard preview](images/tableau_public_dashboard_preview.png)](https://public.tableau.com/views/USAgriculture_15891807504100/UnitedStatesAgriculture?:showVizHome=no&:embed=true)
 
 </details>
